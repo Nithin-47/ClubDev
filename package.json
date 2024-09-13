@@ -1,0 +1,10 @@
+{
+    "name": "club-sphere",
+    "version": "1.0.0",
+    "description": "ClubSphere is a social media platform for college clubs",
+    "scripts": {},
+    "workspaces": [
+        "./workspaces/client",
+        "./workspaces/server"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "workspaces/client"
+		},
+		{
+			"path": "workspaces/server"
+		}
+	],
+	"settings": {}
+}
