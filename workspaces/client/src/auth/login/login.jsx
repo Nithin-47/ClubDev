@@ -1,27 +1,24 @@
-
 import { CardWrapper } from '@/components/card-wrapper'
-import React from 'react'
-import { LoginSchema, RegisterSchema } from '@/schema'
+import { LoginSchema } from '@/schema'
 import { zodResolver } from "@hookform/resolvers/zod"
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
 } from "@/shadcn/components/ui/form"
 
-import { set, useForm } from "react-hook-form"
+import { useForm } from "react-hook-form"
 import { Input } from '@/shadcn/components/ui/input'
 import { Button } from '@/shadcn/components/ui/button'
 import useAuth from '@/hooks/useAuth'
 import axios from '@/api/axios'
 
-import {Link, useNavigate, useLocation} from 'react-router-dom'
+import { useNavigate, useLocation} from 'react-router-dom'
 
-const LOGIN_URL = '/auth'
+const LOGIN_URL = '/auth/login'
 
 // import {useFormStatus} from 'react-dom'
 const Login = () => {

@@ -1,11 +1,13 @@
 {
-  "name": "backend",
+  "name": "club-sphere-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "dev": "node src/main"
+  },
+  "imports": {
+    "#src/*": "./src/*"
   },
   "author": "",
   "license": "ISC",

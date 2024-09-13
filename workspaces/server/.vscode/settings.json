@@ -1,0 +1,6 @@
+{
+    "javascript.format.semicolons": "remove",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.quoteStyle": "double",
+    "javascript.preferences.importModuleSpecifierEnding": "js"
+}

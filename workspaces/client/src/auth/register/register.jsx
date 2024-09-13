@@ -1,12 +1,9 @@
-
 import { CardWrapper } from '@/components/card-wrapper'
-import React from 'react'
 import { RegisterSchema } from '@/schema'
 import { zodResolver } from "@hookform/resolvers/zod"
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -19,7 +16,7 @@ import { Button } from '@/shadcn/components/ui/button'
 
 import axios from '@/api/axios'
 
-const REGISTER_URL = '/register'
+const REGISTER_URL = '/auth/register'
 
 
 const Register = () => {
